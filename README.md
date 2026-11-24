@@ -1,4 +1,4 @@
-# UCU Behavioral Lab
+# UCU Behavior Lab
 
 [English](https://mhcardozo.github.io/ucu-behavioral-lab/) · [Español](https://mhcardozo.github.io/ucu-behavioral-lab/es.html)
 
