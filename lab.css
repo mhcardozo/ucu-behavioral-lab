@@ -79,6 +79,10 @@ h1 em { color: var(--blue); font-weight: 400; }
 .paper p { max-width: 48rem; }
 .authors { margin: .5rem 0 .65rem; font-size: .94rem; color: var(--slate); }
 .people { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3vw; }
+.themes { border-top: 1px solid var(--line); }
+.themes h2 { margin-bottom: 2rem; }
+.mast nav { flex-wrap: wrap; }
+.paper:target { border-top-color: var(--blue); }
 .people article { border-top: 2px solid var(--blue); padding-top: 1.2rem; display: flex; flex-direction: column; align-items: start; }
 .people p, .inquiries p { margin: .85rem 0 1.2rem; }
 .people p { color: var(--slate); }
