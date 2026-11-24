@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UCU Behavioral Lab · Economía del comportamiento y experimental</title>
+  <meta name="description" content="Conocé la investigación en economía del comportamiento y experimental en la Universidad Católica del Uruguay. Explorá trabajos y probá un juego de bienes públicos.">
+  <link rel="stylesheet" href="./lab.css">
+  <link rel="alternate" hreflang="en" href="./index.html">
+  <link rel="alternate" hreflang="es" href="./es.html">
+  <script defer src="./game.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+  <header class="wrap mast">
+    <a class="brand" href="#main"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>UCU Behavioral Lab</a>
+    <nav aria-label="Secciones"><a href="#research">Investigación</a>
+          <a href="#people">Personas</a>
+          <a href="#contact">Participar</a></nav>
+    <div class="langs" aria-label="Idioma"><a href="./index.html" lang="en" hreflang="en" aria-label="English" >EN</a><span>/</span><a href="./es.html" lang="es" hreflang="es" aria-label="Español" aria-current="page">ES</a></div>
+  </header>
+  <main id="main">
+    <div class="wrap hero">
+      <div class="intro">
+        <p class="eyebrow"><span class="rule"></span>Montevideo, Uruguay</p>
+        <h1>UCU <br>Behavioral <em>Lab</em></h1>
+        <p class="lead">¿Cuándo logra un grupo financiar un bien público? ¿Por qué se acepta una moneda y cuesta que circule otra? En la Universidad Católica del Uruguay usamos experimentos para estudiar cómo decidimos en grupo.</p>
+        <div class="actions"><a class="action" href="#research">Explorar la investigación</a><a class="textlink" href="#people">Conocer al equipo</a></div>
+      </div>
+      <section class="demo" aria-labelledby="demo-title">
+        <div class="game-art" aria-hidden="true">
+          <div class="art-top"><span>Fondo común</span><span id="meter">2 / 3</span></div>
+          <div class="slots"><i class="token"></i><i class="token"></i><i id="last-slot" class="slot"></i></div>
+        </div>
+        <div class="game-copy">
+          <p class="eyebrow">Probá un juego de bienes públicos</p>
+          <h2 id="demo-title">Falta una ficha.</h2>
+          <p>Cuatro personas tienen una ficha cada una. Dos aportaron y una guardó la suya. Si el fondo llega a tres fichas, cada persona gana dos. ¿Qué hacés con la tuya?</p>
+          <div class="choices" hidden><button type="button" data-choice="give" aria-pressed="false">Aportar</button><button type="button" data-choice="keep" aria-pressed="false">Guardarla</button></div>
+          <p id="result" role="status" data-give="El proyecto se financia. Terminás con dos fichas, al igual que las otras personas que aportaron. Quien guardó su ficha termina con tres." data-keep="El fondo queda corto. Vos y la otra persona que guardó su ficha terminan con una cada uno. Quienes aportaron terminan con cero."></p>
+          <noscript><p>Si aportás, terminás con dos fichas. Si guardás la tuya, terminás con una.</p></noscript>
+        </div>
+      </section>
+    </div>
+    <section class="band" id="research"><div class="wrap section">
+      <header class="section-head"><h2>Investigaciones</h2><p>Trabajos publicados por los investigadores del grupo junto con sus coautores.</p></header>
+      <div class="papers">
+        <article class="paper">
+          <div class="citation"><span class="year">2024</span><cite>Journal of Economic Behavior &amp; Organization</cite></div>
+          <div><h3 lang="en"><a href="https://doi.org/10.1016/j.jebo.2024.106744">On the emergence of international currencies: An experimental approach</a></h3><p class="authors">Cardozo, Rosokha &amp; Zhang</p><p>¿Cuándo acepta un vendedor la moneda de otro país? En el laboratorio, compradores y vendedores a menudo terminaron usando ambas monedas. Cuando subió la inflación extranjera, los vendedores se mostraron menos dispuestos a aceptar esa moneda.</p></div>
+        </article>
+        <article class="paper">
+          <div class="citation"><span class="year">2026</span><cite>Journal of Agricultural Economics</cite></div>
+          <div><h3 lang="en"><a href="https://doi.org/10.1111/1477-9552.70045">Preferences for Sustainable Production Practices in Extensive Livestock Systems in Uruguay</a></h3><p class="authors">Guerrero Escobar, Kuhfuss, Rivero Wildemauwe, Carriquiry, Rosas, Correa Garcia &amp; Velazco de Los Reyes</p><p>¿Qué cambios adoptarían los productores ganaderos en sus predios? Un experimento de elección en Uruguay encontró diferencias en la compensación que pedirían para cambiar sus prácticas de pastoreo y manejo de la tierra.</p></div>
+        </article>
+        <article class="paper">
+          <div class="citation"><span class="year">2021</span><cite>Humanities and Social Sciences Communications</cite></div>
+          <div><h3 lang="en"><a href="https://doi.org/10.1057/s41599-021-00870-2">The interplay between partisanship, forecasted COVID-19 deaths, and support for preventive policies</a></h3><p class="authors">Freira, Sartorio, Boruchowicz, López Bóo &amp; Navajas</p><p>¿Qué papel juega la afinidad política en una decisión de salud pública? El estudio examinó las predicciones de muertes por la pandemia y el apoyo a medidas preventivas en Argentina, Uruguay, Brasil y Estados Unidos.</p></div>
+        </article>
+      </div>
+    </div></section>
+    <section id="people" class="wrap section">
+      <header class="section-head"><h2>Personas</h2><p>Universidad Católica del Uruguay</p></header>
+      <div class="people">
+        <article><h3>Marcos Cardozo</h3><p>Marcos estudia con experimentos de laboratorio cómo se coordinan las personas cuando la información es incompleta, desde financiar un bien público hasta decidir qué moneda aceptar.</p><a class="textlink" href="https://investigadores.ucu.edu.uy/es/persons/marcos-cardozo-salazar/" aria-label="Perfil UCU de Marcos Cardozo">Perfil UCU</a></article>
+        <article><h3>Lucía Freira</h3><p>Lucía estudia cómo las normas sociales, las emociones y las limitaciones cognitivas influyen en las decisiones. Su trabajo busca aportar evidencia para el diseño de políticas públicas.</p><a class="textlink" href="https://investigadores.ucu.edu.uy/es/persons/luc%C3%ADa-freira-polleri/" aria-label="Perfil UCU de Lucía Freira">Perfil UCU</a></article>
+        <article><h3>José Ignacio Rivero-Wildemauwe</h3><p>José combina teoría de juegos y experimentos de laboratorio para estudiar cuánto pesan los intereses de los demás cuando una parte tiene más información que la otra.</p><a class="textlink" href="https://investigadores.ucu.edu.uy/es/persons/jos%C3%A9-ignacio-rivero-wildemauwe/" aria-label="Perfil UCU de José Ignacio Rivero-Wildemauwe">Perfil UCU</a></article>
+      </div>
+    </section>
+    <section class="contact" id="contact"><div class="wrap section">
+      <h2>Participar</h2>
+      <div class="inquiries"><article><h3>Participar en un estudio</h3><p>¿Te interesa participar en un experimento? Escribile a Marcos Cardozo para consultar por próximos estudios, quiénes pueden participar y en qué consiste una sesión.</p><a class="textlink" href="mailto:marcos.cardozo@ucu.edu.uy?subject=UCU%20Behavioral%20Lab%20%7C%20Participaci%C3%B3n%20en%20estudios">Consultar por estudios</a></article>
+      <article><h3>Colaborar con el equipo</h3><p>¿Tenés una pregunta que surgió en clase, en un organismo público o en tu organización? Contanos qué decisión te interesa estudiar y quiénes la toman.</p><a class="textlink" href="mailto:marcos.cardozo@ucu.edu.uy?subject=UCU%20Behavioral%20Lab%20%7C%20Colaboraci%C3%B3n">Proponer una colaboración</a></article></div>
+    </div></section>
+  </main>
+  <footer class="wrap"><strong>UCU Behavioral Lab</strong><a href="https://www.ucu.edu.uy/">Universidad Católica del Uruguay</a><span>Montevideo, Uruguay</span></footer>
+</body>
+</html>
